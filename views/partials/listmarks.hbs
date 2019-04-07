@@ -1,0 +1,22 @@
+<h1 class="ui header">
+  </h1>
+
+  <div class="ui four stackable cards">
+    {{#each weblist.marks}}
+    <div class="card">
+      <div class="image">
+        <img src="{{picture}}"</img>
+      </div>
+      <div class="extra">
+        <b class="ui header"><a title="{{link}}" href="{{link}}" target="_blank"> {{title}} </a></b>
+      </div>
+      <div class="extra">
+         {{summary}}
+      </div>
+      <div class="ui bottom attached button">
+        <a href="/weblist/{{../weblist.id}}/deletemark/{{id}}" class="delmark ui icon button">
+          <i class="icon trash"></i></a>
+      </div>
+    </div>
+      {{/each}}
+</div>

@@ -1,0 +1,21 @@
+<form class="ui stacked segment form" action="/weblist/{{weblist.id}}/addmark" method="POST" enctype="multipart/form-data">
+  <div class="two fields">
+    <div class="field">
+      <label>Title</label>
+      <input placeholder="Title" type="text" name="title" autofocus required>
+    </div>
+    <div class="field">
+      <label>Link</label>
+      <input placeholder="Link" type="text" name="link" required>
+    </div>
+    <div class="field">
+      <label>Summary</label>
+      <input placeholder="Summary" type="text" name="summary" required>
+    </div>
+    <div class="field">
+      <label>Image Upload</label>
+      <input type="file" name="picture"></input>
+    </div>
+  </div>
+  <button class="ui blue submit button"><i class="plus icon"></i>Add Mark</button>
+</form>

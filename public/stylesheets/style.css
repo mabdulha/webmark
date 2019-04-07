@@ -1,0 +1,35 @@
+body {
+  background-color:#cc0000;
+}
+
+.ui.menu {
+  background-color: #ff8080;
+}
+
+#dashboard, #about, #menu {
+ color: white; 
+}
+
+.ui.table thead th {
+  background-color:#ff4d4d;
+  color:white;
+}
+
+header .ui.header.item {
+ color: white; 
+}
+
+header a {
+ color: black; 
+}
+
+header a:hover {
+ color: white; 
+}
+
+.name{
+  padding-top:20px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+}

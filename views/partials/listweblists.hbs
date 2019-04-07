@@ -1,0 +1,16 @@
+{{#each weblists}}
+  <section class="ui segment">
+    <h2 class="ui header">
+       {{title}}
+    </h2>
+    <p> Amount of Bookmarks: {{CalculateAmount marks}} </p>
+    <a href="/weblist/{{id}}" class="ui icon button"> 
+      <i class="folder open icon"></i> 
+    </a>
+    <a href="/dashboard/deleteWeblist/{{id}}" class="delweblist ui icon button" >
+      <i class="trash icon"></i>
+    </a>
+  </section>
+{{/each}}
+
+<i class="large css icon"></i>

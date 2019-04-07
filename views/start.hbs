@@ -1,0 +1,104 @@
+{{> menu}}
+
+<section class="ui center aligned middle aligned segment">
+  <h1 class="ui header">
+  Welcome to Web Mark
+</h1>
+<p>
+  A small app to let you compose bookmarks.
+</p>
+  <img src="assets/about.png"> <br>
+</section>
+
+<div class="ui center aligned grid segment">
+  <h1 class="ui header">
+    Statistics for Individual users
+  </h1>
+  <div class="ui statistics">
+    <div class="red statistic">
+      <div class="value">
+        <i class="book icon"></i> {{totalNumofWeblistsperUser}}
+      </div>
+      <div class="label">
+        Number of Web Lists
+      </div>
+    </div>
+    <div class="violet statistic">
+      <div class="value">
+        <i class ="bookmark icon"></i> {{totalNumofMarks}}
+      </div>
+      <div class="label">
+        Number of Marks
+      </div>
+    </div>
+    <div class="yellow statistic">
+      <div class="value">
+        <i class="bookmark icon"></i> {{avgMarks}}
+      </div>
+      <div class="label">
+        Average Marks in Web Lists
+      </div>
+    </div>
+    <div class="blue statistic">
+      <div class="value">
+        <i class="bookmark outline icon"></i> {{leastMarks}}
+      </div>
+      <div class="label">
+        Least amount of Marks in Web Lists
+      </div>
+    </div>
+    <div class="green statistic">
+    <div class="value">
+        <i class="bookmark outline icon"></i> {{mostMarks}}
+      </div>
+      <div class="label">
+        Most amount of Marks in Web Lists
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+      
+      
+      
+      
+ <div class="ui center aligned grid segment">
+   <h1 class="header">
+     Statistics across all users              
+   </h1>
+   <div class="ui statistics">
+    <div class="purple statistic">
+      <div class="value">
+        <i class="book icon"></i> {{totalNumofWeblists}}
+      </div>
+      <div class="label">
+        Total Number of Weblists
+      </div>
+     </div>
+         <div class="pink statistic">
+      <div class="value">
+        <i class="bookmark icon"></i> {{avgMarksPerUser}}
+      </div>
+      <div class="label">
+        Avg Marks Per User
+      </div>
+     </div>
+         <div class="teal statistic">
+      <div class="value">
+        <i class="bookmark outline icon"></i> {{userWithMostMarks}}
+      </div>
+      <div class="label">
+        User With Most Marks
+      </div>
+     </div>
+         <div class="olive statistic">
+      <div class="value">
+        <i class="bookmark outline icon"></i> {{userWithLeastMarks}}
+      </div>
+      <div class="label">
+        User With Least Marks
+      </div>
+    </div>
+</div>
+  </div>
+</div>
