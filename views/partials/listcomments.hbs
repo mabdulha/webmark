@@ -1,0 +1,21 @@
+    <table class="ui fixed single lined cell table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Comment</th>
+    <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each comments}}
+      <tr>
+        <td>
+          {{fullname}}
+        </td>
+        <td title="{{comment}}">
+          {{comment}}
+        </td>
+    </tr>
+    {{/each}}
+      </tbody>
+    </table>
